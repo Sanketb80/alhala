@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tourist - Travel Agency HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <small class="me-3 text-light"
+              ><i class="fa fa-map-marker-alt me-2"></i>2nd Floor,cd
+              tower,Kozhikode,Kerala</small
+            >
+            <small class="me-3 text-light"
+              ><i class="fa fa-phone-alt me-2"></i>92-07200398</small
+            >
+            <small class="text-light"
+              ><i class="fa fa-envelope-open me-2"></i
+              >alhalaholidays@gmail.com</small
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-twitter fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-facebook-f fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-linkedin-in fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-instagram fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href=""
+              ><i class="fab fa-youtube fw-normal"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="" class="navbar-brand p-0">
+          <img src="img/alhal.png" alt="Logo" />
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <a href="package.html" class="nav-item nav-link">Packages</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="destination.html" class="dropdown-item">Destination</a>
+                <a href="booking.html" class="dropdown-item">Booking</a>
+                <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                <a href="testimonial.html" class="dropdown-item active"
+                  >Testimonial</a
+                >
+                <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+          <div class="row justify-content-center py-5">
+            <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+              <h1 class="display-3 text-white animated slideInDown">
+                Privacy & Policies
+              </h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                  <li
+                    class="breadcrumb-item text-white active"
+                    aria-current="page"
+                  >
+                    Privacy
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Privacy
+          </h6>
+          <h1 class="mb-5">Our Privacy & Policies</h1>
+        </div>
+
+        <ol>
+          <li>
+            <strong>Introduction:</strong>
+            <p>
+              This Privacy Policy describes how
+              <strong> AL HALA HOLIDAYS LLP</strong> and its affiliates
+              (collectively "<strong>AL HALA HOLIDAYS LLP</strong> , we, our,
+              us") collect, use, share, protect or otherwise process your
+              information/ personal data through our website
+              <strong>http://alhala.net/</strong>
+              (hereinafter referred to as Platform). Please note that you may be
+              able to browse certain sections of the Platform without
+              registering with us. We do not offer any product/service under
+              this Platform outside India and your personal data will primarily
+              be stored and processed in India. By visiting this Platform,
+              providing your information or availing any product/service offered
+              on the Platform, you expressly agree to be bound by the terms and
+              conditions of this Privacy Policy, the Terms of Use and the
+              applicable service/product terms and conditions, and agree to be
+              governed by the laws of India including but not limited to the
+              laws applicable to data protection and privacy. If you do not
+              agree please do not use or access our Platform.
+            </p>
+          </li>
+
+          <li>
+            <strong>Collection:</strong>
+            <p>
+              We collect your personal data when you use our Platform, services
+              or otherwise interact with us during the course of our
+              relationship.and related information provided from time to time.
+              Some of the information that we may collect includes but is not
+              limited to personal data / information provided to us during
+              sign-up/registering or using our Platform such as name, date of
+              birth, address, telephone/mobile number, email IDand/or any such
+              information shared as proof of identity or address. Some of the
+              sensitive personal data may be collected with your consent, such
+              as your bank account or credit or debit card or other payment
+              instrument information or biometric information such as your
+              facial features or physiological information (in order to enable
+              use of certain features when opted for, available on the Platform)
+              etc all of the above being in accordance with applicable law(s)
+              You always have the option to not provide information, by choosing
+              not to use a particular service or feature on the Platform. We may
+              track your behaviour, preferences, and other information that you
+              choose to provide on our Platform. This information is compiled
+              and analysed on an aggregated basis. We will also collect your
+              information related to your transactions on Platform and such
+              third-party business partner platforms. When such a third-party
+              business partner collects your personal data directly from you,
+              you will be governed by their privacy policies. We shall not be
+              responsible for the third-party business partner’s privacy
+              practices or the content of their privacy policies, and we request
+              you to read their privacy policies prior to disclosing any
+              information. If you receive an email, a call from a
+              person/association claiming to be
+              <strong> AL HALA HOLIDAYS LLP</strong> seeking any personal data
+              like debit/credit card PIN, net-banking or mobile banking
+              password, we request you to never provide such information. If you
+              have already revealed such information, report it immediately to
+              an appropriate law enforcement agency
+            </p>
+          </li>
+
+          <li>
+            <strong>Usage:</strong>
+            <p>
+              We use personal data to provide the services you request. To the
+              extent we use your personal data to market to you, we will provide
+              you the ability to opt-out of such uses. We use your personal data
+              to assist sellers and business partners in handling and fulfilling
+              orders; enhancing customer experience; to resolve disputes;
+              troubleshoot problems; inform you about online and offline offers,
+              products, services, and updates; customise your experience; detect
+              and protect us against error, fraud and other criminal activity;
+              enforce our terms and conditions; conduct marketing research,
+              analysis and surveys; and as otherwise described to you at the
+              time of collection of information. You understand that your access
+              to these products/services may be affected in the event permission
+              is not provided to us.
+            </p>
+          </li>
+
+          <li>
+            <strong>Sharing:</strong>
+            <p>
+              We may share your personal data internally within our group
+              entities, our other corporate entities, and affiliates to provide
+              you access to the services and products offered by them. These
+              entities and affiliates may market to you as a result of such
+              sharing unless you explicitly opt-out. We may disclose personal
+              data to third parties such as sellers, business partners, third
+              party service providers including logistics partners, prepaid
+              payment instrument issuers, third-party reward programs and other
+              payment opted by you. These disclosure may be required for us to
+              provide you access to our services and products offered to you, to
+              comply with our legal obligations, to enforce our user agreement,
+              to facilitate our marketing and advertising activities, to
+              prevent, detect, mitigate, and investigate fraudulent or illegal
+              activities related to our services. We may disclose personal and
+              sensitive personal data to government agencies or other authorised
+              law enforcement agencies if required to do so by law or in the
+              good faith belief that such disclosure is reasonably necessary to
+              respond to subpoenas, court orders, or other legal process. We may
+              disclose personal data to law enforcement offices, third party
+              rights owners, or others in the good faith belief that such
+              disclosure is reasonably necessary to: enforce our Terms of Use or
+              Privacy Policy; respond to claims that an advertisement, posting
+              or other content violates the rights of a third party; or protect
+              the rights, property or personal safety of our users or the
+              general public.
+            </p>
+          </li>
+
+          <li>
+            <strong>Security Precautions:</strong>
+            <p>
+              To protect your personal data from unauthorised access or
+              disclosure, loss or misuse we adopt reasonable security practices
+              and procedures. Once your information is in our possession or
+              whenever you access your account information, we adhere to our
+              security guidelines to protect it against unauthorised access and
+              offer the use of a secure server. However, the transmission of
+              information is not completely secure for reasons beyond our
+              control. By using the Platform, the users accept the security
+              implications of data transmission over the internet and the World
+              Wide Web which cannot always be guaranteed as completely secure,
+              and therefore, there would always remain certain inherent risks
+              regarding use of the Platform. Users are responsible for ensuring
+              the protection of login and password records for their account.
+            </p>
+          </li>
+
+          <li>
+            <strong>Data Deletion and Retention:</strong>
+            <p>
+              You have an option to delete your account by visiting your profile
+              and settings on our Platform , this action would result in you
+              losing all information related to your account. You may also write
+              to us at the contact information provided below to assist you with
+              these requests. We may in event of any pending grievance, claims,
+              pending shipments or any other services we may refuse or delay
+              deletion of the account. Once the account is deleted, you will
+              lose access to the account. We retain your personal data
+              information for a period no longer than is required for the
+              purpose for which it was collected or as required under any
+              applicable law. However, we may retain data related to you if we
+              believe it may be necessary to prevent fraud or future abuse or
+              for other legitimate purposes. We may continue to retain your data
+              in anonymised form for analytical and research purposes.
+            </p>
+          </li>
+
+          <li>
+            <strong>Your Rights:</strong>
+            <p>
+              You may access, rectify, and update your personal data directly
+              through the functionalities provided on the Platform.
+            </p>
+          </li>
+
+          <li>
+            <strong>Consent:</strong>
+            <p>
+              By visiting our Platform or by providing your information, you
+              consent to the collection, use, storage, disclosure and otherwise
+              processing of your information on the Platform in accordance with
+              this Privacy Policy. If you disclose to us any personal data
+              relating to other people, you represent that you have the
+              authority to do so and permit us to use the information in
+              accordance with this Privacy Policy. You, while providing your
+              personal data over the Platform or any partner platforms or
+              establishments, consent to us (including our other corporate
+              entities, affiliates, lending partners, technology partners,
+              marketing channels, business partners and other third parties) to
+              contact you through SMS, instant messaging apps, call and/or
+              e-mail for the purposes specified in this Privacy Policy. You have
+              an option to withdraw your consent that you have already provided
+              by writing to the Grievance Officer at the contact information
+              provided below. Please mention “Withdrawal of consent for
+              processing personal data” in your subject line of your
+              communication. We may verify such requests before acting on our
+              request. However, please note that your withdrawal of consent will
+              not be retrospective and will be in accordance with the Terms of
+              Use, this Privacy Policy, and applicable laws. In the event you
+              withdraw consent given to us under this Privacy Policy, we reserve
+              the right to restrict or deny the provision of our services for
+              which we consider such information to be necessary.
+            </p>
+          </li>
+
+          <li>
+            <strong>Changes to this Privacy Policy:</strong>
+            <p>
+              Please check our Privacy Policy periodically for changes. We may
+              update this Privacy Policy to reflect changes to our information
+              practices. We may alert / notify you about the significant changes
+              to the Privacy Policy, in the manner as may be required under
+              applicable laws.
+            </p>
+          </li>
+
+          <strong>Grievance Officer:</strong>
+          <p>Insert Name of the Office:</p>
+          <br />
+          <p>Designation:</p>
+          <br />
+          <p>Insert Name and Address of the Company::</p>
+          <br />
+          <p>Contact us:</p>
+          <br />
+          <p>Phone: Time: Monday - Friday(9:00 - 18:00)</p>
+          <br />
+        </ol>
+      </div>
+    </div>
+
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Company</h4>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="package.html">Privacy Policy</a>
+            <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+            <a class="btn btn-link" href="refund.html">FAQs & Help</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>2nd Floor cd
+              tower,Kozhikode,Kerala
+            </p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>92-07200398</p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>alhalaholidays@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallery</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Newsletter</h4>
+            <p>Submit your email.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-primary w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Al Hala Holidays</a> ,
+              All Right Reserved.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Home</a>
+                <a href="">Cookies</a>
+                <a href="">Help</a>
+                <a href="">FQAs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

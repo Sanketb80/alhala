@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tourist - Travel Agency HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <small class="me-3 text-light"
+              ><i class="fa fa-map-marker-alt me-2"></i>2nd Floor,cd
+              tower,Kozhikode,Kerala</small
+            >
+            <small class="me-3 text-light"
+              ><i class="fa fa-phone-alt me-2"></i>92-07200398</small
+            >
+            <small class="text-light"
+              ><i class="fa fa-envelope-open me-2"></i
+              >alhalaholidays@gmail.com</small
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-twitter fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-facebook-f fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-linkedin-in fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-instagram fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href=""
+              ><i class="fab fa-youtube fw-normal"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="" class="navbar-brand p-0">
+          <img src="img/alhal.png" alt="Logo" />
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <a href="package.html" class="nav-item nav-link">Packages</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="destination.html" class="dropdown-item">Destination</a>
+                <a href="booking.html" class="dropdown-item">Booking</a>
+                <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                <a href="testimonial.html" class="dropdown-item active"
+                  >Testimonial</a
+                >
+                <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+          <div class="row justify-content-center py-5">
+            <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+              <h1 class="display-3 text-white animated slideInDown">Terms</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                  <li
+                    class="breadcrumb-item text-white active"
+                    aria-current="page"
+                  >
+                    Terms
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Terms
+          </h6>
+          <h1 class="mb-5">Our Terms & Conditions</h1>
+        </div>
+
+        <ol>
+          <li>
+            <strong>Introduction:</strong>
+            <p>
+              This document is an electronic record in terms of Information
+              Technology Act, 2000 and rules there under as applicable and the
+              amended provisions pertaining to electronic records in various
+              statutes as amended by the Information Technology Act, 2000. This
+              electronic record is generated by a computer system and does not
+              require any physical or digital signatures.
+            </p>
+          </li>
+
+          <li>
+            <strong>Publication:</strong>
+            <p>
+              This document is published in accordance with the provisions of
+              Rule 3 (1) of the Information Technology (Intermediaries
+              guidelines) Rules, 2011 that require publishing the rules and
+              regulations, privacy policy and Terms of Use for access or usage
+              of domain name http://alhala.net/ ('Website'), including the
+              related mobile site and mobile application (hereinafter referred
+              to as 'Platform').
+            </p>
+          </li>
+
+          <li>
+            <strong>Platform Ownership:</strong>
+            <p>
+              The Platform is owned by <strong>AL HALA HOLIDAYS LLP</strong>, a
+              company incorporated under the Companies Act, 1956 with its
+              registered office at
+              <strong
+                >63 3689 - R53, R54, C D Tower, Mini Bypass Road, Kozhikode
+                Thiruthiyad, Kozhikode, India</strong
+              >
+              (hereinafter referred to as ‘Platform Owner’, 'we', 'us', 'our').
+            </p>
+          </li>
+
+          <li>
+            <strong>Acceptance of Terms:</strong>
+            <p>
+              Your use of the Platform and services and tools are governed by
+              the following terms and conditions (“Terms of Use”) as applicable
+              to the Platform including the applicable policies which are
+              incorporated herein by way of reference. If You transact on the
+              Platform, You shall be subject to the policies that are applicable
+              to the Platform for such transaction. By mere use of the Platform,
+              You shall be contracting with the Platform Owner and these terms
+              and conditions including the policies constitute Your binding
+              obligations with Platform Owner. These Terms of Use relate to your
+              use of our website, goods (as applicable) or services (as
+              applicable) (collectively, 'Services'). Any terms and conditions
+              proposed by You which are in addition to or which conflict with
+              these Terms of Use are expressly rejected by the Platform Owner
+              and shall be of no force or effect. These Terms of Use can be
+              modified at any time without assigning any reason. It is your
+              responsibility to periodically review these Terms of Use to stay
+              informed of updates.
+            </p>
+          </li>
+
+          <li>
+            <strong>User Definition:</strong>
+            <p>
+              For the purpose of these Terms of Use, wherever the context so
+              requires ‘you’, 'your' or ‘user’ shall mean any natural or legal
+              person who has agreed to become a user/buyer on the Platform.
+            </p>
+          </li>
+
+          <li>
+            <strong>Access and Use:</strong>
+            <p>
+              ACCESSING, BROWSING OR OTHERWISE USING THE PLATFORM INDICATES YOUR
+              AGREEMENT TO ALL THE TERMS AND CONDITIONS UNDER THESE TERMS OF
+              USE, SO PLEASE READ THE TERMS OF USE CAREFULLY BEFORE PROCEEDING.
+            </p>
+          </li>
+
+          <li>
+            <strong>Disclaimer of Warranties:</strong>
+            <p>
+              The use of Platform and/or availing of our Services is subject to
+              the following Terms of Use:
+            </p>
+          </li>
+
+          <ol start="1">
+            <li>
+              <strong>Intellectual Property:</strong>
+              <p>
+                To access and use the Services, you agree to provide true,
+                accurate and complete information to us during and after
+                registration, and you shall be responsible for all acts done
+                through the use of your registered account on the Platform.
+              </p>
+            </li>
+
+            <li>
+              <strong>Unauthorized Use:</strong>
+              <p>
+                Neither we nor any third parties provide any warranty or
+                guarantee as to the accuracy, timeliness, performance,
+                completeness or suitability of the information and materials
+                offered on this website or through the Services, for any
+                specific purpose. You acknowledge that such information and
+                materials may contain inaccuracies or errors and we expressly
+                exclude liability for any such inaccuracies or errors to the
+                fullest extent permitted by law.
+              </p>
+            </li>
+
+            <li>
+              <strong>Charges:</strong>
+              <p>
+                Your use of our Services and the Platform is solely and entirely
+                at your own risk and discretion for which we shall not be liable
+                to you in any manner. You are required to independently assess
+                and ensure that the Services meet your requirements.
+              </p>
+            </li>
+
+            <li>
+              <strong>Prohibited Uses:</strong>
+              <p>
+                The contents of the Platform and the Services are proprietary to
+                us and are licensed to us. You will not have any authority to
+                claim any intellectual property rights, title, or interest in
+                its contents. The contents include and is not limited to the
+                design, layout, look and graphics.
+              </p>
+            </li>
+
+            <li>
+              <strong>Third-Party Links:</strong>
+              <p>
+                You acknowledge that unauthorized use of the Platform and/or the
+                Services may lead to action against you as per these Terms of
+                Use and/or applicable laws.
+              </p>
+            </li>
+
+            <li>
+              <strong>Contractual Agreement:</strong>
+              <p>
+                You agree to pay us the charges associated with availing the
+                Services.
+              </p>
+            </li>
+
+            <li>
+              <strong>Indemnification:</strong>
+              <p>
+                You agree not to use the Platform and/or Services for any
+                purpose that is unlawful, illegal or forbidden by these Terms,
+                or Indian or local laws that might apply to you.
+              </p>
+            </li>
+
+            <li>
+              <strong>Force Majeure:</strong>
+              <p>
+                You agree and acknowledge that the website and the Services may
+                contain links to other third-party websites. On accessing these
+                links, you will be governed by the terms of use, privacy policy,
+                and such other policies of such third-party websites. These
+                links are provided for your convenience to provide further
+                information.
+              </p>
+            </li>
+
+            <li>
+              <strong>Governing Law:</strong>
+              <p>
+                You understand that upon initiating a transaction for availing
+                the Services you are entering into a legally binding and
+                enforceable contract with the Platform Owner for the Services.
+              </p>
+            </li>
+
+            <li>
+              <strong>Jurisdiction:</strong>
+              <p>
+                You shall indemnify and hold harmless Platform Owner, its
+                affiliates, group companies (as applicable), and their
+                respective officers, directors, agents, and employees, from any
+                claim or demand, or actions including reasonable attorney's
+                fees, made by any third party or penalty imposed due to or
+                arising out of your breach of these Terms of Use, Privacy
+                Policy, and other Policies, or your violation of any law, rules,
+                or regulations, or the rights (including infringement of
+                intellectual property rights) of a third party.
+              </p>
+            </li>
+
+            <li>
+              <strong>Contact Information:</strong>
+              <p>
+                Notwithstanding anything contained in these Terms of Use, the
+                parties shall not be liable for any failure to perform an
+                obligation under these Terms if performance is prevented or
+                delayed by a force majeure event.
+              </p>
+            </li>
+
+            <li>
+              <strong>Governing Law and Dispute Resolution:</strong>
+              <p>
+                These Terms and any dispute or claim relating to it, or its
+                enforceability, shall be governed by and construed in accordance
+                with the laws of India.
+              </p>
+            </li>
+
+            <li>
+              <strong>Jurisdiction for Disputes:</strong>
+              <p>
+                All disputes arising out of or in connection with these Terms
+                shall be subject to the exclusive jurisdiction of the courts in
+                <strong>Kozhikode and Kerala.</strong>
+              </p>
+            </li>
+
+            <li>
+              <strong>Contact Information:</strong>
+              <p>
+                All concerns or communications relating to these Terms must be
+                communicated to us using the contact information provided on
+                this website.
+              </p>
+            </li>
+          </ol>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Company</h4>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+            <a class="btn btn-link" href="/terms.html">Terms & Condition</a>
+            <a class="btn btn-link" href="refund.html">Refund Policy</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>2nd Floor cd
+              tower,Kozhikode,Kerala
+            </p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>92-07200398</p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>alhalaholidays@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallery</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/package-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Newsletter</h4>
+            <p>Submit your email.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-primary w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Al Hala Holidays</a> ,
+              All Right Reserved.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Home</a>
+                <a href="">Cookies</a>
+                <a href="">Help</a>
+                <a href="">FQAs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
